@@ -1,0 +1,54 @@
+Definición de HTML
+HTML (por sus siglas en ingles, HyperText Markup Language), es un lenguaje de marcado que nos permite 
+hacer la estructura de una página web. Tenemos que aclarar que HTML no es un lenguaje de programación,
+pues carece de mecanismos para ejecutar cálculos, repeticiones o condiciones, lo que sí es, es un lenguaje 
+de marcado. Es un lenguaje que le indicará al navegador web qué tipo de elemento es el que está en 
+la estructura de una página web.
+
+¿Cómo funciona HTML?
+Para que me entiendas, los navegadores web, como Firefox 🦊, Chrome 🌐, Safari 🧭, Opera 🎭, etc.,
+ se encargan de leer e interpretar el código HTML con el que están hechas las páginas web 
+ y finalmente mostrar un contenido entendible para el usuario que visita dicha página.
+
+Entonces, cuando accedes a cualquier página web mediante cualquier navegador, el navegador prácticamente 
+pide al servidor donde está alojada dicha página web que le envíe el documento HTML 📄.
+ El servidor envía el documento HTML, el navegador lo recibe, lo lee 📖, lo interpreta 
+ y muestra el contenido al usuario final.
+
+¿Qué necesitamos para programar con HTML?
+Para empezar a escribir código HTML necesitamos un editor de código como puede ser: sublime text, notepad,
+visual studio code,  CoffeCup Free Editor, entre otros e incluso el famoso bloc de notas. Para escribir código 
+HTML nos servirá hasta el editor más básico y sencillo.
+Por otro lado necesitamos un navegador web que nos servirá para visualizar el resultado de nuestro código HTML 
+en la pantalla.
+¡Muy bien!
+
+Cuando creamos un documento HTML debemos guardarlo con la extensión  .html o .htm para que el navegador 
+pueda ejecutarlo como tal.
+
+Lista completa de pasos para empezar a programar en HTML
+Abrir tu editor de código.
+Crear un documento y guardarlo con la extensión .html o .htm, por ejemplo: proyecto.html en minúsculas.
+Ahora que tienes guardado el documento, ábrelo con tu navegador web preferido, pero seguro que el navegador 
+te muestra un documento en blanco, y es que aún no tenemos contenido, nada de código en nuestro archivo o 
+documento HTML.
+Ahora tenemos abierto nuestro documento HTML con el editor, en este caso bloc de notas, y por otro lado
+ese mismo documento lo tenemos abierto con nuestro navegador web.
+Empezamos a escribir código html en el documento que acabamos de crear.
+
+¿Cómo indicamos mediante código  HTML al navegador el tipo de elemento que constituye a la página web?
+
+Muy fácil, lo hace mediante etiquetas, etiquetas de apertura y  etiquetas de cierre. Así pues existen muchísimas
+etiquetas HTML para indicar qué elemento es, si es un título, un encabezado, un subtítulo, un párrafo, imagen o 
+lo que sea.
+
+Por ejemplo, para indicar un párrafo se utiliza la etiqueta <p> de la siguiente manera:
+
+HTML
+1
+<p> MI PRIMER PÁRRAFO </p>
+<p>	Es la etiqueta de apertura.
+MI PRIMER PÁRRAFO	Es el contenido, en este caso un párrafo.
+</p>	Es la etiqueta de cierre.
+Siempre es esa forma: <etiqueta> contenido </etiqueta>
+
